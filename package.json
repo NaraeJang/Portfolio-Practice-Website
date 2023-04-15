@@ -1,0 +1,22 @@
+{
+  "name": "15.portfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio website with Sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaraeJang/Portfolio-Practice-Website.git"
+  },
+  "author": "Narae Jang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaraeJang/Portfolio-Practice-Website/issues"
+  },
+  "homepage": "https://github.com/NaraeJang/Portfolio-Practice-Website#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
