@@ -1,3 +1,4 @@
+// Variables
 $ff-base: "Dosis", sans-serif;
 $website-width: 1280px;
 $main-color: #ffbc00;
@@ -5,3 +6,12 @@ $light-color: #f4f4f4;
 $medium-color: #ccc;
 $dark-color: #333;
 $bg-image: url("../img/showcase.jpg");
+
+// Set Text Color
+@function set-text-color($bgColor) {
+  @if (lightness($bgColor > 50)) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
